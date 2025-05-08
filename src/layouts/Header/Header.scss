@@ -1,0 +1,15 @@
+.header-box {
+    background-color: #FEA1CD;
+    color: white;
+
+    .logo-box {
+        color: black;
+        background-color: white !important;
+
+        .logo-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

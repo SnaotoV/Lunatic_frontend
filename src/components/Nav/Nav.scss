@@ -1,0 +1,27 @@
+.nav {}
+
+.logo {}
+
+.nav-link {
+    // text-shadow: 0 0 3px black;
+    background-color: #FEA1CD;
+    color: white;
+    transition: background-color 0.3s ease;
+
+
+    &:hover {
+        color: #FEA1CD;
+        background-color: white;
+    }
+
+    &:focus,
+    &:active,
+    &.active {
+        text-shadow: 0.5px 0.5px 0.5px black;
+        color: #FEA1CD;
+        background-color: white;
+        outline: none;
+        box-shadow: none;
+    }
+
+}
